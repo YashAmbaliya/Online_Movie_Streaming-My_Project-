@@ -1,0 +1,88 @@
+.newUser{
+    flex: 5;
+    background-color: rgba(29, 29, 30, 0.927);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.newUserTitle{
+    color: rgba(255, 2, 2, 0.763);
+    margin-left: 15px;
+}
+
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.newUserItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.newUserItem>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(205, 205, 205, 0.856);
+}
+
+.newUserItem>input{
+    height: 20px;
+    padding: 10px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.newUserItem>input::placeholder{
+    color: red;
+}
+
+.newUserGender>input{
+    margin-top: 15px;
+}
+
+.newUserGender>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.newUserSelect{
+    height: 40px;
+    color: red;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.newUserButton{
+    width: 200px;
+    border: none;
+    background-color: #fb1111ec;
+    color: white;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.newUserButton:hover{
+    background-color: white;
+    color: #fb1111ec;
+}
+
+.errorMsg{
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
+    margin-left: 5px;
+}

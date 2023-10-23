@@ -1,0 +1,200 @@
+.user{
+    flex: 5;
+    padding: 20px;
+    background-color: rgba(29, 29, 30, 0.927);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.userTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(255, 2, 2, 0.763);
+    margin-left: 15px;
+}
+
+.userAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: #fb1111ec;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.userAddButton:hover{
+    background-color: white;
+    color: #fb1111ec;
+}
+
+.userContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.userShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    background-color: #242424d7;
+}
+
+.userUpdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+    background-color: #242424d7;
+}
+
+.userShowTop{
+    display: flex;
+    align-items: center;
+}
+
+.userShowImg{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-color: #fb1111ec;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.userShowUsername{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.userShowUserTitle{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+.userShowBottom{
+    margin-top: 20px;
+}
+
+.userShowTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(205, 205, 205, 0.856);
+}
+
+.userShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.userShowIcon{
+    font-size: 16px !important;
+    color: #fb1111ec;
+}
+
+.userShowInfoTitle{
+    margin-left: 10px;
+    color: white;
+}
+
+.userUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(255, 2, 2, 0.763);
+    margin-left: 15px;
+}
+
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.userUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: rgba(205, 205, 205, 0.856);
+}
+
+.userUpdateItem>select{
+    height: 40px;
+    color: red;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.userUpdateInput{
+    border: none;
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.userUpdateInput::placeholder{
+    color: red;
+}
+
+.userUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+
+.userUpdateImg{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-color: #fb1111ec;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.userUpdateIcon{
+    cursor: pointer;
+    color: #fb1111ec;
+}
+
+.userUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #fb1111ec;
+    color: white;
+    font-weight: 600;
+}
+
+.userUpdateButton:hover{
+    background-color: white;
+    color: #fb1111ec;
+}

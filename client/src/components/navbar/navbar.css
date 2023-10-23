@@ -1,0 +1,153 @@
+.navbar {
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(to top, transparent 0%, #000000a9 50%);
+}
+.navbar.scrolled {
+    background-color: var(--main-color);
+}
+.navbar .container {
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.navbar .container .left {
+    display: flex;
+    align-items: center;
+}
+.navbar .container .left img {
+    height: 25px;
+    margin-right: 40px;
+}
+
+.navbar .container .left span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.navbar .container .left span:hover {
+    color: red;
+}
+.navbar .container .right {
+    display: flex;
+    align-items: center;
+}
+.navbar .container .right .icon {
+    margin: 0px 15px;
+    cursor: pointer;
+}
+.navbar .container .right .icon:hover {
+    color: red;
+}
+.navbar .container .right .profilePic {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar .container .right .profilePic:hover {
+    border: 1.8px solid red;
+    border-radius: 5px;
+}
+.navbar .container .right .userUpdate {
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar .container .right .userUpdateTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+.navbar .container .right .userUpdateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.navbar .container .right .userUpdateItem {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+.navbar .container .right .userUpdateItem > label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.navbar .container .right .userUpdateInput {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #d42222;
+    color: white;
+    border-bottom: 1px solid #fefefe;
+}
+.navbar .container .right .userUpdateInput::placeholder {
+    color: lightgray;
+}
+.navbar .container .right .userUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar .container .right .userUpdateUpload {
+    display: flex;
+    align-items: center;
+}
+.navbar .container .right .userUpdateImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.navbar .container .right .userUpdateButton {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    font-weight: 600;
+}
+.navbar .container .right .userUpdateButton:hover {
+    background-color: red;
+    color: white;
+}
+.navbar .container .right .profile .options {
+    display: none;
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+.navbar .container .right .profile span {
+    padding: 10px;
+    cursor: pointer;
+}
+.navbar .container .right .profile:hover .options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    cursor: pointer;
+}
+
+.profileShowTitle{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: large;
+    font-weight: 600;
+    color: rgb(249, 47, 47);
+}
+
+.profileShow{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}

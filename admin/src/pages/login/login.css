@@ -1,0 +1,95 @@
+.topbar1{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(7, 7, 7);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.topbarWrapper1{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo1{
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+.logo2{
+    font-weight: normal;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+.topRight1{
+    display: flex;
+    align-items: center;
+    margin-right: 610px;
+}
+
+.login{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm{
+    /* display: flex;
+    flex-direction: column;  */
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.loginTitle{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #fb1111ec;
+}
+
+.loginInput{
+    height: 30px;
+    padding: 8px;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.loginInput::placeholder{
+    color: red;
+}
+
+.loginButton{
+    height: 40px;
+    background-color: #fb1111ec;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    background-color: white;
+    color: #fb1111ec;
+    font-weight: 600;
+}
